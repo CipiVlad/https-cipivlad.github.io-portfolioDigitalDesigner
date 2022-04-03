@@ -1,0 +1,527 @@
+/* 
+================================
+COLORS & FONT STYLE
+
+================================
+font-family: 'Didact Gothic', sans-serif;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Work Sans', sans-serif;
+
+Farben: #9e9e9e #fff #000 #333 #666
+
+
+
+/* 
+================================
+FONT @IMPORT
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Fjalla+One&family=Work+Sans&display=swap');
+
+
+/* 
+================================
+GENERAL STYLE
+================================ 
+*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* ================================
+Page 1 Style
+================================= */
+
+header p {
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    margin-top: 3%;
+}
+
+#WORK {
+    width: 100%;
+    height: 160vh;
+    background-color: #fff;
+}
+
+
+#WORK h1 {
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 75px;
+    margin-top: 3%;
+}
+
+#WORK h2 {
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 75px;
+}
+
+#WORK h3 {
+    text-align: center;
+    font-size: 75px;
+    font-family: 'Work Sans', sans-serif;
+    padding-top: 70px;
+    letter-spacing: 20px;
+}
+
+#WORK .jump {
+    width: 100%;
+    height: 50%;
+    margin-top: 5%;
+    background-image: url(../img/portfolio1.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+/* ================================
+Page 2 Style
+================================= */
+
+
+#ORBIS {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/portfolio2.jpg);
+    background-size: cover;
+
+}
+
+#ORBIS .bgopac {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+}
+
+#ORBIS .info {
+    width: 600px;
+    height: 1000px;
+    margin-left: 200px;
+    padding-top: 174px;
+
+}
+
+#ORBIS p {
+    text-align: left;
+    color: #9e9e9e;
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+    padding: 24px
+}
+
+#ORBIS h2 {
+    text-align: left;
+    color: #fff;
+    font-size: 75px;
+    font-family: 'Didact Gothic', sans-serif;
+    letter-spacing: 8px;
+    margin-left: 25px;
+}
+
+#ORBIS .button p {
+    text-align: left;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+    text-decoration: transparent;
+
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    width: fit-content;
+    padding: 20px;
+    margin-top: 90px;
+    margin-left: 25px;
+}
+
+#ORBIS .number {
+
+    font-size: 160px;
+    font-family: 'Fjalla One', sans-serif;
+    color: rgba(255, 255, 255, 0.1);
+    text-align: right;
+    margin-right: -480px;
+}
+
+/* ===========================
+active FX Button
+====================================== */
+#ORBIS .button p:hover {
+    color: #000;
+    background: #fff;
+}
+
+
+
+
+/* ================================
+Page 3 Style
+================================= */
+
+#ROLLR {
+    width: 100%;
+    height: 120vh;
+    background-image: url(../img/portfolio3.png);
+    background-size: cover;
+}
+
+
+
+#ROLLR .info {
+    width: 600px;
+    height: 1000px;
+    margin-left: 200px;
+    padding-top: 174px;
+
+}
+
+#ROLLR p {
+    text-align: left;
+    color: #9e9e9e;
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+    padding: 24px
+}
+
+#ROLLR h2 {
+    text-align: left;
+    color: #000;
+    font-size: 75px;
+    font-family: 'Didact Gothic', sans-serif;
+    letter-spacing: 8px;
+    margin-left: 25px;
+}
+
+#ROLLR .button p {
+    text-align: left;
+    color: #000;
+    font-size: 16px;
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+    text-decoration: transparent;
+
+    border: 1px solid #000;
+    width: fit-content;
+    padding: 20px;
+    margin-top: 90px;
+    margin-left: 25px;
+}
+
+
+
+#ROLLR .number {
+
+    font-size: 160px;
+    font-family: 'Fjalla One', sans-serif;
+    color: #666666;
+    text-align: right;
+    margin-right: -480px;
+}
+
+/* ===========================
+active FX Button
+====================================== */
+#ROLLR .button p:hover {
+    color: #fff;
+    background: #000;
+}
+
+
+/* ================================
+Page 4 Style
+================================= */
+
+#GALITOS {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/portfolio4.jpg);
+    background-size: cover;
+}
+
+#GALITOS .bgopac {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+}
+
+#GALITOS .info {
+    width: 600px;
+    height: 1000px;
+    margin-left: 200px;
+    padding-top: 174px;
+
+}
+
+#GALITOS p {
+    text-align: left;
+    color: #9e9e9e;
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+    padding: 24px
+}
+
+#GALITOS h2 {
+    text-align: left;
+    color: #fff;
+    font-size: 75px;
+    font-family: 'Didact Gothic', sans-serif;
+    letter-spacing: 8px;
+    margin-left: 25px;
+}
+
+#GALITOS .button p {
+    text-align: left;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+    text-decoration: transparent;
+
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    width: fit-content;
+    padding: 20px;
+    margin-top: 90px;
+    margin-left: 25px;
+}
+
+#GALITOS .number {
+
+    font-size: 160px;
+    font-family: 'Fjalla One', sans-serif;
+    color: rgba(255, 255, 255, 0.1);
+    text-align: right;
+    margin-right: -480px;
+}
+
+/* ===========================
+active FX Button
+====================================== */
+#GALITOS .button p:hover {
+    color: #000;
+    background: #fff;
+}
+
+
+
+/* ================================
+Page 5 Style
+================================= */
+
+#TRETTO {
+    width: 100%;
+    height: 120vh;
+    background-image: url(../img/portfolio5.png);
+    background-size: cover;
+}
+
+
+#TRETTO .info {
+    width: 600px;
+    height: 1000px;
+    margin-left: 200px;
+    padding-top: 174px;
+
+}
+
+#TRETTO p {
+    text-align: left;
+    color: #9e9e9e;
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+    padding: 24px
+}
+
+#TRETTO h2 {
+    text-align: left;
+    color: #000;
+    font-size: 75px;
+    font-family: 'Didact Gothic', sans-serif;
+    letter-spacing: 8px;
+    margin-left: 25px;
+}
+
+#TRETTO .button p {
+    text-align: left;
+    color: #000;
+    font-size: 16px;
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+    text-decoration: transparent;
+
+    border: 1px solid #000;
+    width: fit-content;
+    padding: 20px;
+    margin-top: 90px;
+    margin-left: 25px;
+}
+
+#TRETTO .number {
+
+    font-size: 160px;
+    font-family: 'Fjalla One', sans-serif;
+    color: #666666;
+    text-align: right;
+    margin-right: -480px;
+}
+
+/* ===========================
+active FX Button
+====================================== */
+#TRETTO .button p:hover {
+    color: #fff;
+    background: #000;
+}
+
+
+/* ================================
+Page 6 Style
+================================= */
+
+#WMORE {
+    width: 100%;
+    height: 110vh;
+    background-color: #000;
+}
+
+
+#WMORE h2 {
+
+    text-align: center;
+    font-size: 120px;
+    font-family: 'Work Sans', sans-serif;
+    color: #fff;
+}
+
+#WMORE p {
+    text-align: left;
+    font-size: 22px;
+    font-family: 'Work Sans', sans-serif;
+    color: #666666;
+    padding-top: 180px;
+    padding-left: 527px;
+    padding-right: 110px;
+    line-height: 32px;
+}
+
+#WMORE h3 {
+    text-align: left;
+    font-size: 40px;
+    font-family: 'Work Sans', sans-serif;
+    color: #fff;
+    padding-top: 80px;
+    padding-left: 527px;
+    padding-right: 0px;
+}
+
+#WMORE .question {
+    margin: 0 auto;
+    padding-top: 10%;
+
+}
+
+
+/* ===============
+hover FX Style
+=================
+
+ */
+
+#WMORE .email a:link,
+.email a:visited {
+    text-decoration: none;
+
+}
+
+#WMORE .email a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+
+
+
+/* ================================
+Page 7 Style
+================================= */
+
+#SOMEDIA {
+    width: 100%;
+    height: 165vh;
+    background-color: #fff;
+}
+
+#SOMEDIA h2 {
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
+
+    font-size: 120px;
+    color: #000;
+
+}
+
+#SOMEDIA div div {
+    padding-top: 125px;
+}
+
+#SOMEDIA h2 {
+    padding: 45px;
+
+}
+
+/* ===============
+hover FX Style
+=================
+ */
+
+#SOMEDIA .dribble a:link,
+.dribble a:visited {
+    text-decoration: none;
+
+}
+
+#SOMEDIA .dribble a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+
+#SOMEDIA .instagram a:link,
+.dribble a:visited {
+    text-decoration: none;
+
+}
+
+#SOMEDIA .instagram a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+#SOMEDIA .twitter a:link,
+.dribble a:visited {
+    text-decoration: none;
+
+}
+
+#SOMEDIA .twitter a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+/* ========================
+ footer with heart
+=========================*/
+
+
+footer div h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+footer {
+    margin-bottom: 100px;
+}
